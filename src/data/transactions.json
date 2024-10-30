@@ -1,0 +1,152 @@
+[
+  {
+    "id": "1",
+    "type": "Credit",
+    "amount": 618.29,
+    "name": "Walmart",
+    "description": "Groceries",
+    "date": "2024-02-10",
+    "pending": true,
+    "authorizedUser": "Jane Smith"
+  },
+  {
+    "id": "2",
+    "type": "Credit",
+    "amount": -378.91,
+    "name": "Starbucks",
+    "description": "Clothing",
+    "date": "2024-05-16",
+    "pending": false,
+    "authorizedUser": "John Doe"
+  },
+  {
+    "id": "3",
+    "type": "Credit",
+    "amount": 811.69,
+    "name": "McDonald's",
+    "description": "Electronics",
+    "date": "2024-04-11",
+    "pending": false,
+    "authorizedUser": "Jane Smith"
+  },
+  {
+    "id": "4",
+    "type": "Credit",
+    "amount": -302.16,
+    "name": "Target",
+    "description": "Food",
+    "date": "2024-11-03",
+    "pending": true,
+    "authorizedUser": null
+  },
+  {
+    "id": "5",
+    "type": "Credit",
+    "amount": 837.82,
+    "name": "Amazon",
+    "description": "Electronics",
+    "date": "2024-06-25",
+    "pending": false,
+    "authorizedUser": "Jane Smith"
+  },
+  {
+    "id": "6",
+    "type": "Payment",
+    "amount": 347.45,
+    "name": "Tesla",
+    "description": "Furniture",
+    "date": "2024-08-21",
+    "pending": false,
+    "authorizedUser": null
+  },
+  {
+    "id": "7",
+    "type": "Payment",
+    "amount": 408.69,
+    "name": "Target",
+    "description": "Software",
+    "date": "2024-07-18",
+    "pending": true,
+    "authorizedUser": null
+  },
+  {
+    "id": "8",
+    "type": "Payment",
+    "amount": -222.99,
+    "name": "Amazon",
+    "description": "Groceries",
+    "date": "2024-08-07",
+    "pending": false,
+    "authorizedUser": "Jane Smith"
+  },
+  {
+    "id": "9",
+    "type": "Credit",
+    "amount": -293.52,
+    "name": "Starbucks",
+    "description": "Groceries",
+    "date": "2024-06-03",
+    "pending": false,
+    "authorizedUser": null
+  },
+  {
+    "id": "10",
+    "type": "Credit",
+    "amount": 325.81,
+    "name": "McDonald's",
+    "description": "Subscription",
+    "date": "2024-05-11",
+    "pending": true,
+    "authorizedUser": null
+  },
+  {
+    "id": "11",
+    "type": "Credit",
+    "amount": -187.25,
+    "name": "Microsoft",
+    "description": "Subscription",
+    "date": "2024-03-10",
+    "pending": true,
+    "authorizedUser": "John Doe"
+  },
+  {
+    "id": "12",
+    "type": "Payment",
+    "amount": 475.55,
+    "name": "IKEA",
+    "description": "Groceries",
+    "date": "2024-01-27",
+    "pending": true,
+    "authorizedUser": null
+  },
+  {
+    "id": "13",
+    "type": "Credit",
+    "amount": -123.27,
+    "name": "IKEA",
+    "description": "Electronics",
+    "date": "2024-02-26",
+    "pending": true,
+    "authorizedUser": "John Doe"
+  },
+  {
+    "id": "14",
+    "type": "Credit",
+    "amount": -390.78,
+    "name": "Target",
+    "description": "Clothing",
+    "date": "2024-04-15",
+    "pending": true,
+    "authorizedUser": "John Doe"
+  },
+  {
+    "id": "15",
+    "type": "Credit",
+    "amount": 915.02,
+    "name": "Walmart",
+    "description": "Food",
+    "date": "2024-03-21",
+    "pending": false,
+    "authorizedUser": "Jane Smith"
+  }
+]
