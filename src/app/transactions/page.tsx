@@ -1,6 +1,7 @@
 'use client';
 
 import React from 'react';
+import Link from 'next/link';
 import TransactionItem from '@/components/TransactionItem';
 import transactions from '@/data/transactions.json';
 import CardBalance from '@/components/CardBalance';
@@ -11,20 +12,22 @@ import '../../style.scss';
 const TransactionsList = () => {
   return (
     <>
-        
-        <div className='wrapper'>
+      <div className='wrapper'>
         <div className="overview-grid">
-      <CardBalance />
-      <NoPaymentDue />
-      <DailyPoints />
-    </div>
+          <CardBalance />
+          <NoPaymentDue />
+          <DailyPoints />
         </div>
-        <div className='TransactionsList__holder'>
+      </div>
+
+      <div className='TransactionsList__holder'>
         <h1 className="TransactionsList__header">TransactionsList</h1>
         {transactions.map((transaction) => (
-            <TransactionItem key={`keyitem-${transaction.id} ${transaction.name}`} {...transaction} />
+          <Link href={`/transactions/${transaction.id}`} key={`keyitem-${transaction.id}-${transaction.name}`}>
+              <TransactionItem {...transaction} />
+          </Link>
         ))}
-        </div>
+      </div>
     </>
   );
 };
