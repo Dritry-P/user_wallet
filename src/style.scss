@@ -64,20 +64,19 @@
   }
   .overview-grid {
     display: grid;
-    grid-template-columns: 2fr 1fr; /* Дві колонки: одна більша для балансу і одна менша */
-    grid-template-rows: auto auto; /* Два рядки */
-    gap: 20px; /* Відстань між елементами */
+    grid-template-columns: 2fr 1fr;
+    grid-template-rows: auto auto; 
+    gap: 20px; 
     padding: 20px;
-    background-color: #f5f5f5; /* Світлий фон */
+    background-color: #f5f5f5; 
     border-radius: 15px;
     max-width: 600px;
-    margin: 0 auto; /* Центрування сітки */
+    margin: 0 auto; 
   
     @media (max-width: 768px) {
-      grid-template-columns: 1fr; /* Один стовпець на мобільних пристроях */
+      grid-template-columns: 1fr; 
     }
   
-    /* Card Balance займає перший рядок і два стовпці */
     & > :nth-child(1) {
       background-color: #fff;
       padding: 20px;
@@ -86,7 +85,6 @@
       text-align: left;
     }
   
-    /* No Payment Due */
     & > :nth-child(2) {
       background-color: #fff;
       padding: 20px;
@@ -95,7 +93,6 @@
       text-align: left;
     }
   
-    /* Daily Points */
     & > :nth-child(3) {
       grid-column: span 2;
       background-color: #fff;
@@ -105,7 +102,6 @@
       text-align: left;
     }
   
-    /* Спільні стилі для заголовків та тексту всередині компонентів */
     h2 {
       font-size: 16px;
       font-weight: 600;

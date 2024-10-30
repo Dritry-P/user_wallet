@@ -10,14 +10,14 @@ interface TransactionItemProps {
   description: string;
   date: string;
   pending: boolean;
-  authorizedUser?: string;
+  authorizedUser?: string | null; 
 }
+
 
 const TransactionItem: React.FC<TransactionItemProps> = ({ id, type, amount, name, description, date, pending, authorizedUser }) => {
   return (
     <div className='TransactionItem'>
       <div className="TransactionItem__icon-holder">
-        {/* Use FontAwesome or another icon for the company logo */}
         <img src="new_logo_ikea.jpg" alt="Transaction Logo" className="TransactionItem__icon" />
       </div>
       <div className="TransactionItem__details">

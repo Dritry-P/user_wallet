@@ -1,12 +1,12 @@
 .TransactionDetail {
-    background-color: #1a1a1a; /* Чорний фон, який часто використовується у Монобанку */
-    color: #ffffff; /* Білий текст */
+    background-color: #1a1a1a; 
+    color: #ffffff;
     border-radius: 15px;
     padding: 20px;
     max-width: 500px;
     min-width: 250px;
     text-align: center;
-    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2); /* М'яка тінь для глибини */
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2); 
     transition: all 0.3s ease;
     @media (max-width: 768px) {
       padding: 15px;
@@ -24,7 +24,7 @@
     &__amount {
       font-size: 48px;
       font-weight: 700;
-      color: #f5f5f5; /* Великий та контрастний текст для суми */
+      color: #f5f5f5; 
       margin-bottom: 10px;
       line-height: 1.2;
   
@@ -40,7 +40,7 @@
     &__name {
       font-size: 24px;
       font-weight: 500;
-      color: #c2c2c2; /* Сірий відтінок для менш важливої інформації */
+      color: #c2c2c2; 
       margin-bottom: 5px;
   
       @media (max-width: 768px) {
@@ -80,16 +80,15 @@
           font-weight: 600;
         }
       
-        /* Додаємо окремі класи для різних статусів транзакції */
         &.pending {
           p:first-child {
-            color: #ffcc00; /* Жовтий для статусу "Pending" */
+            color: #ffcc00;
           }
         }
       
         &.approved {
           p:first-child {
-            color: #00ff00; /* Зелений для статусу "Approved" */
+            color: #00ff00; 
           }
         }
   
